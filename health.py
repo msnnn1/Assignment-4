@@ -5,10 +5,8 @@ Program to read CSV file and create scatter plots in one window.
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# Read CSV file
 data = pd.read_csv("health_data.csv")
 
-# Create multiple plots in one figure
 plt.figure()
 
 # 1. Weight vs Height
